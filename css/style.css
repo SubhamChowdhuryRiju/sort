@@ -1,0 +1,101 @@
+html {
+  font-size: 90%;
+}
+
+body {
+  text-align: center;
+  font-weight: bold;
+  background-color: violet;
+  padding-top: .4rem;
+}
+
+h1 {
+  font-family: cursive;
+  padding-top: 4rem;
+}
+
+.title {
+  background-color: aqua;
+  padding: 1rem 0 1rem 0;
+  margin: 0 30rem 0 30rem;
+  border-radius: 3rem;
+}
+
+#number {
+  width: 21rem;
+}
+
+.od {
+  text-align: center;
+}
+
+#result {
+  color: red;
+  background-color: aqua;
+  padding: .1rem 0 .1rem 0;
+  margin: 1rem 30rem 0 30rem;
+  border-radius: 3rem;
+  visibility: hidden;
+}
+
+@media (max-width : 1080px) {
+    html{
+      font-size: 62.5%;
+    }
+
+    #number {
+      size: 62.5%;
+    }
+}
+
+@media (max-width : 840px) {
+  html{
+    font-size: 55%;
+  }
+
+  #number {
+    size: 55%;
+  }
+}
+
+@media (max-width : 740px) {
+  html{
+    font-size: 45%;
+  }
+
+  #number {
+    size: 45%;
+  }
+}
+
+@media (max-width : 600px) {
+  html{
+    font-size: 35%;
+  }
+
+  #number {
+    size: 35%;
+  }
+}
+
+@media (max-width : 460px) {
+  html{
+    font-size: 25%;
+  }
+
+
+  #number {
+    size: 25%;
+  }
+}
+
+@media (max-width : 330px) {
+  html{
+    font-size: 15%;
+  }
+
+
+  #number {
+    size: 15%;
+  }
+}
